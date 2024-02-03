@@ -19,10 +19,8 @@ public class Main {
         System.out.printf("Income: $%d\n", income);
         System.out.println("Staff expenses:");
         Scanner scanner1 = new Scanner(System.in);
-        //System.out.print(">");
         int staffExpenses = scanner1.nextInt();
         System.out.println("Other expenses:");
-        //System.out.print(">");
         Scanner scanner2= new Scanner(System.in);
         int otherExpenses = scanner2.nextInt();
         int netIncome = income - (staffExpenses + otherExpenses);
